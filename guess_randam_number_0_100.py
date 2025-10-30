@@ -1,4 +1,5 @@
 print("guess the number between 0 to 100")
+
 choice=5
 
 
@@ -24,7 +25,12 @@ while choice>0:
 
 if choice==0:
     print("you lose")
+    
     print()
+    
     print("The answer is {}".formate(num))
+    
     print()
+    
     print("Better luck Next time...")
+
